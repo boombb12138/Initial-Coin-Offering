@@ -190,7 +190,7 @@ export default function Home() {
       setLoading(true);
       await tx.wait(true);
       setLoading(false);
-      await getOwner(); //todo 为什么在提取完代币后，要得到owner呢
+      // await getOwner(); //todo 为什么在提取完代币后，要得到owner呢
     } catch (err) {
       console.error(err);
     }
@@ -330,7 +330,7 @@ export default function Home() {
           )}
         </div>
         <div>
-          <img className={styles.image} src="../public/0.svg"></img>
+          <img className={styles.image} src="my-app/my-app/public/0.svg"></img>
         </div>
       </div>
 
